@@ -1,0 +1,21 @@
+{
+  "name": "gestor-tareas",
+  "version": "1.0.0",
+  "description": "Una API REST con Node.js y Express para gestionar tareas",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": ["API", "Node.js", "Express", "Tareas"],
+  "author": "Tu Nombre",
+  "license": "MIT"
+}
